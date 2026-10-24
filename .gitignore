@@ -1,0 +1,34 @@
+# Local toolchains and environments
+.tools/
+.venv/
+venv/
+tmp/
+
+# Downloaded installers and contest material
+*.exe
+2023电赛C题_元器件参数测量装置.pdf
+
+# Firmware build products
+firmware/mspm0_autotest/build/
+*.elf
+*.hex
+*.map
+*.o
+*.d
+
+# Python cache and editor files
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+*.user
+*.log
+
+# Internal or superseded local notes
+设计交接说明.md
+MSPM0自动开发环境说明.md
+模拟前端板使用说明.md
+模拟前端首次电容测试_2026-10-18.md
+AD9833实测记录_2026-10-09.md
+当前原理图_2026-10-04.png
+firmware/mspm0_autotest/AD9833接线与使用.md
